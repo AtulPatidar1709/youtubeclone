@@ -1,11 +1,9 @@
-import './App.css';
-
+import "./App.css";
+import { AppContext } from "./context/contextApi";
 function App() {
-  return (
-    <div className="App">
-      <h1>Jai Shree Ram</h1>
-    </div>
-  );
+  return <AppContext>
+    <div className="text-3xl">App</div>
+  </AppContext>;
 }
 
 export default App;
